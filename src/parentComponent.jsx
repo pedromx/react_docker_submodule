@@ -14,7 +14,7 @@ class ParentComponent extends Component {
   }
   
   fetchValues(){
-  var url = "https://localhost:8080/api/values";
+  var url = "http://localhost:8080/api/values";
  
     fetch(url)
     .then(response => response.json())
